@@ -1,0 +1,11 @@
+SELECT DISTINCT y1.name as first_country, y2.name as second_country
+FROM geoindex.country y1, geoindex.country y2,
+           geoindex.sea s, split(s.`-country`, " ") s1,  split(s.`-country`, " ") s2,
+           geoindex.mountain m, split(m.`-country`, " ") m1 ,split(m.`-country`, " ") m2
+WHERE s1= y1.`-car_code`
+AND s2 = y2.`-car_code` 
+AND m1 = y1.`-car_code` 
+AND m2 = y2.`-car_code`
+AND y1.name < y2.name;
+
+--time:0.154s

@@ -1,0 +1,54 @@
+Part 3A
+
+Step 1:
+Take {C, E}, {C, E}+ = {C, E, A}
+Since {C, E}+ != {A, B, C, D, E} and {C, E}+ != {C, E}
+We now have R1{C, E, A} and R2{C, E, B, D}
+
+Step 2:
+Take {D}, {D}+ = {D, B}
+Since {D}+ != {C, E, B, D} and {D} != {D}
+We now have R21{D, B} and R22{C, E, D}
+
+Step 3:
+after two decompostion,
+We can not find any more attribute where X+!=X and X!={all attributes},
+we now have BCNF
+
+Part 3B
+
+Step 1:
+Take {A}, {A}+ = {A,E}
+Since {A}+ != {A} and {A}+ != {A, B, C, D, E}
+We now have S1{A, E} and S2{A, B, C, D}
+
+Step 2:
+Take {B, C}, {B, C}+ = {B, C, A}
+Since {B, C}+ != {B, C} and {B, C}+ !=  {A, B, C, D}
+We now have S22{B, C, A} and S23{B, C, D}
+
+Step 3:
+after two decompostion,
+We can not find any more attribute where X+!=X and X!={all attributes},
+we now have BCNF
+
+Part 3C
+
+Zero FD since all X are closed
+
+
+Part3D
+
+since only {} or all of Xs are closed, any of the X+ equals all attributes
+hence the following FD stands 
+A -> B, B -> C, C -> D, D -> A
+
+
+Part3E
+
+since {B, C} are closed,
+B -> C and C -> B
+and A -> D and D -> A does not stand for the same reason
+but we can add AD -> B or C to make the above statement stand
+hence we have B -> C, C -> B, A -> D, D -> A, AD -> B 
+

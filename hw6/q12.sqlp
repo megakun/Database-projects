@@ -1,0 +1,13 @@
+SELECT DISTINCT c1.name as first_country, c2.name as second_country, mountains, seas
+FROM geoindex.country c1, geoindex.country c2
+     LET mountains = (SELECT DISTINCT m.name as mountain
+        FROM geoindex.mountain m, split(m.`-country`, " ") m1, split(m.`-country`, " ") m2
+        WHERE  m1 = c1.`-car_code` and m2 = c2.`-car_code`
+        ),
+     seas = (SELECT DISTINCT s.name as sea
+        FROM geoindex.sea s, split(s.`-country`, " ") s1, split(s.`-country`, " ") s2
+        WHERE  s1 = c1.`-car_code` and s2 = c2.`-car_code`
+        )
+WHERE ARRAY_COUNT(mountains)>0
+AND ARRAY_COUNT(seas) >0
+AND c1.name < c2.name;

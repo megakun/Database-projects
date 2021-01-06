@@ -1,0 +1,5 @@
+DBMS on public cloud saves valuable local computing resources. It is easy to create, use and file a query. 
+I believe it also allows us to colloborate on projects via remote access. 
+However, computing power is somewhat limit due our access plan.
+I think the idea of offering DBMS in public cloud is the upcoming trend, many comany or indiviuals does not have the resourses
+to manage their own data server, cloud computing offers by the big names is one of the best solution.

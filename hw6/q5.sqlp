@@ -1,0 +1,4 @@
+SELECT m.name AS mountain, m.height AS height,y.`-car_code` AS country_code, y.name AS country_name
+FROM geo.world x,  x.mondial.country y,  x.mondial.mountain m
+WHERE  y.`-car_code` = m.`-country`
+ORDER BY int(m.height) DESC;

@@ -1,0 +1,8 @@
+SELECT y.name AS country ,y.population AS population,
+r AS num_religons
+FROM geo.world x, x.mondial.country y
+Let r = (CASE WHEN y.religions is missing THEN 0
+                     WHEN is_array(y.religions) THEN ARRAY_COUNT(y.religions)
+                     ELSE 1 END)
+ORDER BY country;
+

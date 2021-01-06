@@ -1,0 +1,67 @@
+-------------------------- 
+30/11/2020 周一 21:07:51.59 
+-------------------------- 
+21:07:53.864 [main] INFO  org.apache.hyracks.control.nc.service.NCService - Waiting for connection from CC on *:9091
+21:07:57.389 [main] INFO  org.apache.hyracks.control.nc.service.NCService - Using JAVA_OPTS from conf file (jvm.args)
+21:07:57.390 [main] INFO  org.apache.hyracks.control.nc.service.NCService - Setting JAVA_OPTS to -XX:MaxGCPauseMillis=25000 -Xmx9766m
+21:07:57.391 [main] INFO  org.apache.hyracks.control.nc.service.NCService - Launching NCDriver process
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.hyracks.util.PidHelper (file:/F:/study/AU 20/cse414/hw6/asterix-server-0.9.4.1-binary-assembly/bin/../repo/hyracks-util-0.3.4-SNAPSHOT.jar) to field sun.management.RuntimeImpl.jvm
+WARNING: Please consider reporting this to the maintainers of org.apache.hyracks.util.PidHelper
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+log4j:WARN No appenders could be found for logger (io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+^C^C-------------------------- 
+2020/12/06 周日 12:22:18.03 
+-------------------------- 
+12:22:24.512 [main] INFO  org.apache.hyracks.control.nc.service.NCService - Waiting for connection from CC on *:9091
+12:22:27.619 [main] INFO  org.apache.hyracks.control.nc.service.NCService - Using JAVA_OPTS from conf file (jvm.args)
+12:22:27.620 [main] INFO  org.apache.hyracks.control.nc.service.NCService - Setting JAVA_OPTS to -XX:MaxGCPauseMillis=25000 -Xmx9766m
+12:22:27.621 [main] INFO  org.apache.hyracks.control.nc.service.NCService - Launching NCDriver process
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.hyracks.util.PidHelper (file:/F:/study/AU 20/cse414/hw6/asterix-server-0.9.4.1-binary-assembly/bin/../repo/hyracks-util-0.3.4-SNAPSHOT.jar) to field sun.management.RuntimeImpl.jvm
+WARNING: Please consider reporting this to the maintainers of org.apache.hyracks.util.PidHelper
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+log4j:WARN No appenders could be found for logger (io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+15:43:02.514 [main] INFO  org.apache.hyracks.control.nc.service.NCService - NCDriver exited with return value 99
+15:43:02.524 [main] INFO  org.apache.hyracks.control.nc.service.NCService - Terminating NCService based on return value from NCDriver
+15:43:02.524 [main] INFO  org.apache.hyracks.control.nc.service.NCService - JVM Exiting.. Bye!
+-------------------------- 
+2020/12/06 周日 15:44:24.88 
+-------------------------- 
+15:44:26.751 [main] INFO  org.apache.hyracks.control.nc.service.NCService - Waiting for connection from CC on *:9091
+15:44:29.808 [main] INFO  org.apache.hyracks.control.nc.service.NCService - Using JAVA_OPTS from conf file (jvm.args)
+15:44:29.810 [main] INFO  org.apache.hyracks.control.nc.service.NCService - Setting JAVA_OPTS to -XX:MaxGCPauseMillis=25000 -Xmx9766m
+15:44:29.813 [main] INFO  org.apache.hyracks.control.nc.service.NCService - Launching NCDriver process
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.hyracks.util.PidHelper (file:/F:/study/AU 20/cse414/hw6/asterix-server-0.9.4.1-binary-assembly/bin/../repo/hyracks-util-0.3.4-SNAPSHOT.jar) to field sun.management.RuntimeImpl.jvm
+WARNING: Please consider reporting this to the maintainers of org.apache.hyracks.util.PidHelper
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+log4j:WARN No appenders could be found for logger (io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+16:10:12.471 [main] INFO  org.apache.hyracks.control.nc.service.NCService - NCDriver exited with return value 99
+16:10:12.471 [main] INFO  org.apache.hyracks.control.nc.service.NCService - Terminating NCService based on return value from NCDriver
+16:10:12.471 [main] INFO  org.apache.hyracks.control.nc.service.NCService - JVM Exiting.. Bye!
+-------------------------- 
+2020/12/06 周日 16:11:06.62 
+-------------------------- 
+16:11:08.494 [main] INFO  org.apache.hyracks.control.nc.service.NCService - Waiting for connection from CC on *:9091
+16:11:11.856 [main] INFO  org.apache.hyracks.control.nc.service.NCService - Using JAVA_OPTS from conf file (jvm.args)
+16:11:11.858 [main] INFO  org.apache.hyracks.control.nc.service.NCService - Setting JAVA_OPTS to -XX:MaxGCPauseMillis=25000 -Xmx9766m
+16:11:11.858 [main] INFO  org.apache.hyracks.control.nc.service.NCService - Launching NCDriver process
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.hyracks.util.PidHelper (file:/F:/study/AU 20/cse414/hw6/asterix-server-0.9.4.1-binary-assembly/bin/../repo/hyracks-util-0.3.4-SNAPSHOT.jar) to field sun.management.RuntimeImpl.jvm
+WARNING: Please consider reporting this to the maintainers of org.apache.hyracks.util.PidHelper
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+log4j:WARN No appenders could be found for logger (io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+^C^C
